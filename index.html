@@ -10,6 +10,7 @@
 
   gtag('config', 'G-FKX47QGBBR');
 </script>
+
   <title>Pulpleaf Enterprise</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,8 +26,98 @@
   background-size: 11%;
   background-opacity: 0.5;
 }
+body {
+	  background-image: url("Leaf_color-01.");
+  background-size: 11%;
+  background-opacity: 0.5;
+	font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	margin: 6% auto 0;
+}
+.single-card {
+	position: relative;
+	width: 280px;
+	height: 400px;
+	margin: 15px;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 0.3s ease;
+	overflow: hidden;
+	background: #1C1E1D;
+	border-radius: 15px;
+	transition: all 0.8s ease-in-out;
+}
+.single-card:hover {
+	transform: translateY(-10px);
+}
+.img-area {
+	position: relative;
+	width: 100%;
+	height: 280px;
+	overflow: hidden;
+}
+.img-area img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+.img-area:hover img {
+	transform: scale(1.1);
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 174, 255, 0.8);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+.single-card:hover .overlay {
+	opacity: 1;
+}
+.info {
+	padding: 10px;
+	text-align: center;
+	color: #ddd;
+}
+.info h4 {
+	margin: 15px 0 10px;
+}
+.info .price {
+	margin: 0;
+}
+div.gallery {
+  margin: 8px;
+  float: left;
+  width: 510px;
+}
 
-</style>
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+.center {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    width: 50%;
+}	
+  </style>
 </head>
 <body>
 
@@ -37,76 +128,37 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <div class="container-fluid">
     <ul class="navbar-nav">
-       <li class="nav-item">
+      <li class="nav-item">
         <a class="nav-link active" href="https://pulpleaf.github.io/Pulpleaf_Enterprise.github.io/">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="file:///D:/Pulpleaf/Pulpleaf%20Products.html">Products</a>
+        <a class="nav-link" href="https://pulpleaf.github.io/Pulpleaf_Products.github.io/">Products</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="file:///D:/Pulpleaf/Pulpleaf%20Services.html">Services</a>
+        <a class="nav-link" href="https://pulpleaf.github.io/Pulpleaf_Services.github.io/">Services</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="file:///D:/Pulpleaf/Pulpleaf%20Team.html">Team</a>
+        <a class="nav-link" href="https://pulpleaf.github.io/Pulpleaf_The_Team.github.io/">Team</a>
       </li>
     </ul>
   </div>
 </nav>
-
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-4">
-      <h2>Branch</h2>
-      <h5>Where to find us:</h5>
-       <a href="https://maps.app.goo.gl/ocY2mUzaZJ865mQH7">
-	   <img src="Bliss.jpg" style="width:79%;min-height:130px;max-height:265px;">
-	   </a>
-	   <br>
-      <p><b>814 BLISS, 50 National Road, Putatan, Muntinlupa, 1772 Metro Manila</b></p>
-	    <h6>Contact Us: 0917 719 2241 or 272153132</h6>
-		<h6>Gmail: pulpleaf.enterprise@gmail.com</h6>
-      <h2 class="mt-4">Core Values</h2>
-      <h5>We value being:</h5>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <p>>Delight and Bold</p>
-		 </li>
-        <li class="nav-item">
-            <p>>Accountability with Synergy</p>
-        </li>
-        <li class="nav-item">
-           <p>>Altruistic and Visionary</p>
-        </li>
-      </ul>
-      <hr class="d-sm-none">
-    </div>
-    <div class="col-sm-8">
-      <h2>About Us</h2>
-      <p>Pulpleaf is established and registered on September 13, 2018, as an enterprise catering to all 
-	  types of paper and office supplies requirements. The demand to supply paper products to various customer 
-	  demographics including but not limited to hotels, offices, schools, hospitals, initially became the idea 
-	  in establishing the company and growing to serve the increasing demand of these items within southern 
-	  Metro Manila, Cavite, and Laguna.</p>
-	  <h5>Business Type:</h5>
-	  <p>Distributor of paper products, general office supplies, 
-	  office equipment, school supplies, janitorial supplies, pantry items, 
-	  and other general merchandise.</p>
-	  <h5>Product Range:</h5>
-	  <p>Paper products: Carbonless, Copy paper, Onion skin, Newsprint, Colored bond, etc.</p>
-	   <p>Office and School supplies: Pens, envelopes, folders, ink, organizers, etc.</p> 
-	 
-      <h2 class="mt-5">Mission</h2>
-      <p>We are delighted to make our customers feel comfortable, open, and assured whenever we deliver our
-	  total package. We aim to achieve this by providing excellent quality of goods and service from our 
-	  dedicated team who are always readily available to synergize with a smile.</p>
-	
-	 <h2 class="mt-5">Vision</h2>
-      <p>We promote a 'One Stop Shop' experience to our customers, employees, and then to the community
-	  where we aspire to a long-lasting partnership and envision the value of collective hard work and 
-	  selfless dedication.</p>
-	  </div>
-  </div>
-</div>
 <br>
+<center>
+<br>
+<h1>Our Team</h1>
+<h4>Meet the Pulpleaf Team - Here to help you seize the day!</h4>
+</center>
+<center>
+<div class="gallery">
+    <img src="photo1718077605.jpeg" alt="Cinque Terre" width="1000" height="800">
+</div>
+<div class="gallery">
+    <img src="photo1718077605 (1).jpeg" alt="Cinque Terre" width="1000" height="800">
+</div>
+<div class="gallery">
+    <img src="photo1718077605 (2).jpeg" alt="Cinque Terre" width="1000" height="800">
+</div>
+</center>
 </body>
 </html>
